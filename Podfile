@@ -12,6 +12,7 @@ pod 'FMDB'
 pod 'Each', '~> 1.2'
 
 #words pod
+pod "KRProgressHUD"
 pod 'SwiftyStoreKit'
 pod 'SDWebImage'
 pod 'OneSignal', '>= 3.0.0', '< 4.0'

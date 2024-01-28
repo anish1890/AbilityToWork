@@ -31,8 +31,16 @@
 		3AF919F2EBF63D0C10CE693A /* Pods_AbilityToHelp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE5D83891A33B03305E214C /* Pods_AbilityToHelp.framework */; };
 		F83E81A62B5B3F440006F210 /* LookQuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83E81A52B5B3F440006F210 /* LookQuizVC.swift */; };
 		F83E81A82B5B6E750006F210 /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83E81A72B5B6E750006F210 /* CustomLayout.swift */; };
+		F83F5D6F2B65A8E9008E4262 /* RiddleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F5D6E2B65A8E9008E4262 /* RiddleVC.swift */; };
+		F83F5D712B65BB2D008E4262 /* PeriodicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F5D702B65BB2D008E4262 /* PeriodicViewController.swift */; };
+		F83F5D732B65C180008E4262 /* GenerateImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F5D722B65C180008E4262 /* GenerateImageVC.swift */; };
+		F83F5D752B65CAE3008E4262 /* FuncHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F5D742B65CAE3008E4262 /* FuncHomeViewController.swift */; };
+		F83F5D772B65D2DC008E4262 /* PeriodicDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F5D762B65D2DC008E4262 /* PeriodicDetail.swift */; };
+		F83F5D792B65F79C008E4262 /* DailyRoutineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F5D782B65F79C008E4262 /* DailyRoutineViewController.swift */; };
 		F85E7C972B5DB4D80050819C /* ListenQuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85E7C962B5DB4D80050819C /* ListenQuizVC.swift */; };
 		F85E7C992B5DB5A60050819C /* SubCategoryLearnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85E7C982B5DB5A60050819C /* SubCategoryLearnVC.swift */; };
+		F86FC7D72B65FBFA00C77AFB /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86FC7D62B65FBFA00C77AFB /* ArticlesViewController.swift */; };
+		F86FC7D92B66037300C77AFB /* SynoniumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86FC7D82B66037300C77AFB /* SynoniumsViewController.swift */; };
 		F87E21B22B634DFD00CAB9EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F87E21B12B634DFD00CAB9EB /* GoogleService-Info.plist */; };
 		F87E21B72B6353ED00CAB9EB /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F87E21B42B6353ED00CAB9EB /* GoogLeNetPlaces.mlmodel */; };
 		F87E21B82B6353ED00CAB9EB /* ProViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E21B52B6353ED00CAB9EB /* ProViewController.swift */; };
@@ -156,8 +164,16 @@
 		F5D26DB6BF7B733BE61206D0 /* Pods-AbilityToHelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbilityToHelp.release.xcconfig"; path = "Target Support Files/Pods-AbilityToHelp/Pods-AbilityToHelp.release.xcconfig"; sourceTree = "<group>"; };
 		F83E81A52B5B3F440006F210 /* LookQuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookQuizVC.swift; sourceTree = "<group>"; };
 		F83E81A72B5B6E750006F210 /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
+		F83F5D6E2B65A8E9008E4262 /* RiddleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiddleVC.swift; sourceTree = "<group>"; };
+		F83F5D702B65BB2D008E4262 /* PeriodicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicViewController.swift; sourceTree = "<group>"; };
+		F83F5D722B65C180008E4262 /* GenerateImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateImageVC.swift; sourceTree = "<group>"; };
+		F83F5D742B65CAE3008E4262 /* FuncHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncHomeViewController.swift; sourceTree = "<group>"; };
+		F83F5D762B65D2DC008E4262 /* PeriodicDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicDetail.swift; sourceTree = "<group>"; };
+		F83F5D782B65F79C008E4262 /* DailyRoutineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRoutineViewController.swift; sourceTree = "<group>"; };
 		F85E7C962B5DB4D80050819C /* ListenQuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenQuizVC.swift; sourceTree = "<group>"; };
 		F85E7C982B5DB5A60050819C /* SubCategoryLearnVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryLearnVC.swift; sourceTree = "<group>"; };
+		F86FC7D62B65FBFA00C77AFB /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
+		F86FC7D82B66037300C77AFB /* SynoniumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynoniumsViewController.swift; sourceTree = "<group>"; };
 		F87E21B12B634DFD00CAB9EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F87E21B42B6353ED00CAB9EB /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 		F87E21B52B6353ED00CAB9EB /* ProViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProViewController.swift; sourceTree = "<group>"; };
@@ -386,6 +402,14 @@
 			children = (
 				F8CE83492B64A6DF00AC031A /* GuideVC.swift */,
 				F8CE834B2B64A95000AC031A /* ExpressionVC.swift */,
+				F83F5D6E2B65A8E9008E4262 /* RiddleVC.swift */,
+				F83F5D702B65BB2D008E4262 /* PeriodicViewController.swift */,
+				F83F5D722B65C180008E4262 /* GenerateImageVC.swift */,
+				F83F5D742B65CAE3008E4262 /* FuncHomeViewController.swift */,
+				F83F5D762B65D2DC008E4262 /* PeriodicDetail.swift */,
+				F83F5D782B65F79C008E4262 /* DailyRoutineViewController.swift */,
+				F86FC7D62B65FBFA00C77AFB /* ArticlesViewController.swift */,
+				F86FC7D82B66037300C77AFB /* SynoniumsViewController.swift */,
 			);
 			path = Guide;
 			sourceTree = "<group>";
@@ -670,6 +694,7 @@
 				F8EFD53A2B6308BA009BD277 /* Google Add Enum.swift in Sources */,
 				F83E81A82B5B6E750006F210 /* CustomLayout.swift in Sources */,
 				F8B413012B5F048500BC8726 /* StartSelectionVC.swift in Sources */,
+				F83F5D712B65BB2D008E4262 /* PeriodicViewController.swift in Sources */,
 				F8EFD54B2B6308DA009BD277 /* CustomView.swift in Sources */,
 				F8EFD59D2B6309C0009BD277 /* PrivacyPolicyVC.swift in Sources */,
 				F8EFD50F2B62FE52009BD277 /* ArDrawingVC.swift in Sources */,
@@ -690,6 +715,7 @@
 				F8EFD5172B630081009BD277 /* ArShooter.swift in Sources */,
 				F8EFD59B2B6309B7009BD277 /* NoInternetConnectionVC.swift in Sources */,
 				F8CE834C2B64A95000AC031A /* ExpressionVC.swift in Sources */,
+				F83F5D752B65CAE3008E4262 /* FuncHomeViewController.swift in Sources */,
 				04EE010B2B5B20010070DE1B /* AppDelegate.swift in Sources */,
 				F8EFD58F2B630974009BD277 /* CongratulationVC.swift in Sources */,
 				F8EFD5972B6309A5009BD277 /* LanguageSelectionPopUpVC.swift in Sources */,
@@ -709,6 +735,7 @@
 				04EE012B2B5B239D0070DE1B /* mainCatTableViewCell.swift in Sources */,
 				F87E21B72B6353ED00CAB9EB /* GoogLeNetPlaces.mlmodel in Sources */,
 				F87E21B82B6353ED00CAB9EB /* ProViewController.swift in Sources */,
+				F83F5D6F2B65A8E9008E4262 /* RiddleVC.swift in Sources */,
 				F8EFD5A32B6309DA009BD277 /* SettingVC.swift in Sources */,
 				F8EFD56A2B630903009BD277 /* UILabel+Extension.swift in Sources */,
 				04EE01392B5B249D0070DE1B /* VideoPlayerTblCell.swift in Sources */,
@@ -736,15 +763,20 @@
 				F87E21BB2B63577700CAB9EB /* Inceptionv3.mlmodel in Sources */,
 				F8EFD5482B6308DA009BD277 /* CustomImageView.swift in Sources */,
 				04EE01332B5B242D0070DE1B /* VideolistCollectionViewCell.swift in Sources */,
+				F86FC7D92B66037300C77AFB /* SynoniumsViewController.swift in Sources */,
 				F8EFD5472B6308DA009BD277 /* CustomTextview.swift in Sources */,
 				04EE01422B5B286E0070DE1B /* VideoThumbListVC.swift in Sources */,
+				F86FC7D72B65FBFA00C77AFB /* ArticlesViewController.swift in Sources */,
 				F8EFD53B2B6308BA009BD277 /* CategoryModel.swift in Sources */,
 				04EE012F2B5B23F30070DE1B /* videoListTableViewCell.swift in Sources */,
 				F8EFD5892B630950009BD277 /* APPConstantData.swift in Sources */,
 				F8EFD59F2B6309CA009BD277 /* PuzzleStageVC.swift in Sources */,
 				F8EFD5332B6308A7009BD277 /* StageCell.swift in Sources */,
 				F8EFD5512B6308E7009BD277 /* String+Extension.swift in Sources */,
+				F83F5D772B65D2DC008E4262 /* PeriodicDetail.swift in Sources */,
 				F8CE834A2B64A6DF00AC031A /* GuideVC.swift in Sources */,
+				F83F5D792B65F79C008E4262 /* DailyRoutineViewController.swift in Sources */,
+				F83F5D732B65C180008E4262 /* GenerateImageVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
