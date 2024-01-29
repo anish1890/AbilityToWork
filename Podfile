@@ -28,6 +28,7 @@ pod 'SwiftConfettiView'
 pod 'Google-Mobile-Ads-SDK'
 pod 'Alamofire'
 pod 'Localize-Swift'
+pod 'SwiftyJSON'
 
   # Pods for KidsLogic
 

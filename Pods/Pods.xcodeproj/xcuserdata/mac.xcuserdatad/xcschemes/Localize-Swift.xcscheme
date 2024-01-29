@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1632B894574A70A9FF1B01F34BA48A69"
-               BuildableName = "Pods_KidsLogic.framework"
-               BlueprintName = "Pods-KidsLogic"
+               BlueprintIdentifier = "340DDF7DB405EDF7F01580175FF090DF"
+               BuildableName = "Localize_Swift.framework"
+               BlueprintName = "Localize-Swift"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

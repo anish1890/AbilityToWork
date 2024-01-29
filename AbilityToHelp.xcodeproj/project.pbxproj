@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045D36632B68573C0088C20F /* GptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D36622B68573C0088C20F /* GptViewController.swift */; };
+		045D36652B6857C30088C20F /* cellGpt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D36642B6857C30088C20F /* cellGpt.swift */; };
 		04EE010B2B5B20010070DE1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE010A2B5B20010070DE1B /* AppDelegate.swift */; };
 		04EE010D2B5B20010070DE1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE010C2B5B20010070DE1B /* SceneDelegate.swift */; };
 		04EE01122B5B20010070DE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EE01102B5B20010070DE1B /* Main.storyboard */; };
@@ -140,6 +142,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		045D36622B68573C0088C20F /* GptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GptViewController.swift; sourceTree = "<group>"; };
+		045D36642B6857C30088C20F /* cellGpt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellGpt.swift; sourceTree = "<group>"; };
 		04EE01072B5B20010070DE1B /* AbilityToHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbilityToHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04EE010A2B5B20010070DE1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04EE010C2B5B20010070DE1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -339,6 +343,7 @@
 				F8B412FD2B5EEFA800BC8726 /* VideolistCollectionViewCell.xib */,
 				04EE01372B5B249D0070DE1B /* VideoPlayerTblCell.swift */,
 				04EE01382B5B249D0070DE1B /* VideoPlayerTblCell.xib */,
+				045D36642B6857C30088C20F /* cellGpt.swift */,
 			);
 			path = CustomCell;
 			sourceTree = "<group>";
@@ -405,6 +410,7 @@
 				F83E81A52B5B3F440006F210 /* LookQuizVC.swift */,
 				F85E7C962B5DB4D80050819C /* ListenQuizVC.swift */,
 				F85E7C982B5DB5A60050819C /* SubCategoryLearnVC.swift */,
+				045D36622B68573C0088C20F /* GptViewController.swift */,
 			);
 			path = SchoolApp;
 			sourceTree = "<group>";
@@ -730,6 +736,7 @@
 				F8EFD52A2B630892009BD277 /* DetailNameCell.swift in Sources */,
 				F89E75BC2B6405DB00B4FCF9 /* GamesMainViewController.swift in Sources */,
 				F8EFD5222B6306BD009BD277 /* GameViewController.swift in Sources */,
+				045D36652B6857C30088C20F /* cellGpt.swift in Sources */,
 				F8EFD53D2B6308BA009BD277 /* ClsPuzzleModel.swift in Sources */,
 				F8EFD5272B630886009BD277 /* AlphabetCell.swift in Sources */,
 				F8EFD5912B63097D009BD277 /* DetailVC.swift in Sources */,
@@ -792,6 +799,7 @@
 				04EE01422B5B286E0070DE1B /* VideoThumbListVC.swift in Sources */,
 				F86FC7D72B65FBFA00C77AFB /* ArticlesViewController.swift in Sources */,
 				F8EFD53B2B6308BA009BD277 /* CategoryModel.swift in Sources */,
+				045D36632B68573C0088C20F /* GptViewController.swift in Sources */,
 				04EE012F2B5B23F30070DE1B /* videoListTableViewCell.swift in Sources */,
 				F8EFD5892B630950009BD277 /* APPConstantData.swift in Sources */,
 				F8EFD59F2B6309CA009BD277 /* PuzzleStageVC.swift in Sources */,

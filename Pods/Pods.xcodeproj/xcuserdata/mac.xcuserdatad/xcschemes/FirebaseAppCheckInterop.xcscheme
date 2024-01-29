@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D53454FBB630479B01CA0A777383E94F"
-               BuildableName = "FBAudienceNetwork"
-               BlueprintName = "FBAudienceNetwork"
+               BlueprintIdentifier = "DD28B439BE8B17D9339D9B526F144347"
+               BuildableName = "FirebaseAppCheckInterop.framework"
+               BlueprintName = "FirebaseAppCheckInterop"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -108,6 +108,7 @@ PODS:
     - SDWebImage/Core (= 5.18.3)
   - SDWebImage/Core (5.18.3)
   - SwiftConfettiView (0.1.0)
+  - SwiftyJSON (5.0.1)
   - SwiftyStoreKit (0.16.1)
   - youtube-ios-player-helper (1.0.4)
 
@@ -124,6 +125,7 @@ DEPENDENCIES:
   - OneSignal (< 4.0, >= 3.0.0)
   - SDWebImage
   - SwiftConfettiView
+  - SwiftyJSON
   - SwiftyStoreKit
   - youtube-ios-player-helper (~> 1.0.4)
 
@@ -152,6 +154,7 @@ SPEC REPOS:
     - RecaptchaInterop
     - SDWebImage
     - SwiftConfettiView
+    - SwiftyJSON
     - SwiftyStoreKit
     - youtube-ios-player-helper
 
@@ -179,9 +182,10 @@ SPEC CHECKSUMS:
   RecaptchaInterop: 7d1a4a01a6b2cb1610a47ef3f85f0c411434cb21
   SDWebImage: 96e0c18ef14010b7485210e92fac888587ebb958
   SwiftConfettiView: 1bdbc2e6913b6b1c76d8070802b212508ad5c352
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
   youtube-ios-player-helper: e9b97535e816db3152179d84d999bc1807ecd689
 
-PODFILE CHECKSUM: ea310584067987f0a535e9b07e69b1bd80cd0f47
+PODFILE CHECKSUM: 7083be1ca4bf4c29b54b390b32d316d3683b50fd
 
-COCOAPODS: 1.13.0
+COCOAPODS: 1.11.3
