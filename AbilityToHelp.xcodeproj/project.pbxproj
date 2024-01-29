@@ -29,6 +29,12 @@
 		04EE01422B5B286E0070DE1B /* VideoThumbListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE01412B5B286E0070DE1B /* VideoThumbListVC.swift */; };
 		04EE01442B5B2E2E0070DE1B /* SubCatDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EE01432B5B2E2E0070DE1B /* SubCatDetailsVC.swift */; };
 		3AF919F2EBF63D0C10CE693A /* Pods_AbilityToHelp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE5D83891A33B03305E214C /* Pods_AbilityToHelp.framework */; };
+		F80A9C1B2B67224100324673 /* tou.html in Resources */ = {isa = PBXBuildFile; fileRef = F80A9C1A2B67224100324673 /* tou.html */; };
+		F80A9C212B6723D000324673 /* learning delay.html in Resources */ = {isa = PBXBuildFile; fileRef = F80A9C1C2B6723CF00324673 /* learning delay.html */; };
+		F80A9C222B6723D000324673 /* ODD.html in Resources */ = {isa = PBXBuildFile; fileRef = F80A9C1D2B6723CF00324673 /* ODD.html */; };
+		F80A9C232B6723D000324673 /* speechdelay.html in Resources */ = {isa = PBXBuildFile; fileRef = F80A9C1E2B6723D000324673 /* speechdelay.html */; };
+		F80A9C242B6723D000324673 /* behaviors.html in Resources */ = {isa = PBXBuildFile; fileRef = F80A9C1F2B6723D000324673 /* behaviors.html */; };
+		F80A9C252B6723D000324673 /* autism.html in Resources */ = {isa = PBXBuildFile; fileRef = F80A9C202B6723D000324673 /* autism.html */; };
 		F83E81A62B5B3F440006F210 /* LookQuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83E81A52B5B3F440006F210 /* LookQuizVC.swift */; };
 		F83E81A82B5B6E750006F210 /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83E81A72B5B6E750006F210 /* CustomLayout.swift */; };
 		F83F5D6F2B65A8E9008E4262 /* RiddleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F5D6E2B65A8E9008E4262 /* RiddleVC.swift */; };
@@ -162,6 +168,12 @@
 		A3880385F2CA5CE8FBA3775A /* Pods-KidsLogic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsLogic.debug.xcconfig"; path = "Target Support Files/Pods-KidsLogic/Pods-KidsLogic.debug.xcconfig"; sourceTree = "<group>"; };
 		E0D53E3FD27320164B9F708E /* Pods-AbilityToHelp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbilityToHelp.debug.xcconfig"; path = "Target Support Files/Pods-AbilityToHelp/Pods-AbilityToHelp.debug.xcconfig"; sourceTree = "<group>"; };
 		F5D26DB6BF7B733BE61206D0 /* Pods-AbilityToHelp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbilityToHelp.release.xcconfig"; path = "Target Support Files/Pods-AbilityToHelp/Pods-AbilityToHelp.release.xcconfig"; sourceTree = "<group>"; };
+		F80A9C1A2B67224100324673 /* tou.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tou.html; sourceTree = "<group>"; };
+		F80A9C1C2B6723CF00324673 /* learning delay.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "learning delay.html"; sourceTree = "<group>"; };
+		F80A9C1D2B6723CF00324673 /* ODD.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ODD.html; sourceTree = "<group>"; };
+		F80A9C1E2B6723D000324673 /* speechdelay.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = speechdelay.html; sourceTree = "<group>"; };
+		F80A9C1F2B6723D000324673 /* behaviors.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = behaviors.html; sourceTree = "<group>"; };
+		F80A9C202B6723D000324673 /* autism.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = autism.html; sourceTree = "<group>"; };
 		F83E81A52B5B3F440006F210 /* LookQuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookQuizVC.swift; sourceTree = "<group>"; };
 		F83E81A72B5B6E750006F210 /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
 		F83F5D6E2B65A8E9008E4262 /* RiddleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiddleVC.swift; sourceTree = "<group>"; };
@@ -400,6 +412,12 @@
 		F8CE83482B64A6C900AC031A /* Guide */ = {
 			isa = PBXGroup;
 			children = (
+				F80A9C202B6723D000324673 /* autism.html */,
+				F80A9C1F2B6723D000324673 /* behaviors.html */,
+				F80A9C1C2B6723CF00324673 /* learning delay.html */,
+				F80A9C1D2B6723CF00324673 /* ODD.html */,
+				F80A9C1E2B6723D000324673 /* speechdelay.html */,
+				F80A9C1A2B67224100324673 /* tou.html */,
 				F8CE83492B64A6DF00AC031A /* GuideVC.swift */,
 				F8CE834B2B64A95000AC031A /* ExpressionVC.swift */,
 				F83F5D6E2B65A8E9008E4262 /* RiddleVC.swift */,
@@ -608,7 +626,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8EFD5792B63092D009BD277 /* Congrastulation.mp3 in Resources */,
+				F80A9C232B6723D000324673 /* speechdelay.html in Resources */,
+				F80A9C242B6723D000324673 /* behaviors.html in Resources */,
 				F8EFD57A2B63092D009BD277 /* wordpuzzlebgsound.mp3 in Resources */,
+				F80A9C222B6723D000324673 /* ODD.html in Resources */,
 				F8EFD5262B630886009BD277 /* AlphabetCell.xib in Resources */,
 				F8EFD52B2B630892009BD277 /* DetailNameCell.xib in Resources */,
 				F87E21B22B634DFD00CAB9EB /* GoogleService-Info.plist in Resources */,
@@ -624,15 +645,18 @@
 				F8EFD5202B6306BD009BD277 /* GameScene.sks in Resources */,
 				F8B412FE2B5EEFA800BC8726 /* VideolistCollectionViewCell.xib in Resources */,
 				F8B412FC2B5EE01400BC8726 /* preschool.db in Resources */,
+				F80A9C1B2B67224100324673 /* tou.html in Resources */,
 				F8EFD5212B6306BD009BD277 /* Actions.sks in Resources */,
 				F8EFD5612B6308F5009BD277 /* HelveticaRoundedLTStd-Bd.otf in Resources */,
 				F8EFD57B2B63092D009BD277 /* success.mp3 in Resources */,
 				04EE012C2B5B239D0070DE1B /* mainCatTableViewCell.xib in Resources */,
 				F8EFD5602B6308F5009BD277 /* RobotoCondensed-Regular.ttf in Resources */,
 				04EE013A2B5B249D0070DE1B /* VideoPlayerTblCell.xib in Resources */,
+				F80A9C252B6723D000324673 /* autism.html in Resources */,
 				F8EFD55C2B6308F5009BD277 /* GAMERIA.ttf in Resources */,
 				F8EFD55F2B6308F5009BD277 /* Ribeye-Regular.ttf in Resources */,
 				F8EFD52E2B63089C009BD277 /* HomeCategoryCell.xib in Resources */,
+				F80A9C212B6723D000324673 /* learning delay.html in Resources */,
 				04EE01122B5B20010070DE1B /* Main.storyboard in Resources */,
 				F8EFD5192B63008F009BD277 /* Media.scnassets in Resources */,
 				04EE01302B5B23F30070DE1B /* videoListTableViewCell.xib in Resources */,

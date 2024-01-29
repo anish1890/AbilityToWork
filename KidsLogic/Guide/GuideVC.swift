@@ -19,6 +19,12 @@ class GuideVC: UIViewController {
         self.dismiss(animated: true)
     }
     
-
+    @IBAction func gotoPage(_ sender: UIButton) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "ArticlesViewController") as! ArticlesViewController
+        print(sender.tag)
+        vc.selectedTag = sender.tag
+       navigationController?.pushViewController(vc, animated: true)
+    }
+    
 
 }
