@@ -19,7 +19,7 @@ import Alamofire
 import GoogleMobileAds
 import AppTrackingTransparency
 import AdSupport
-
+import IQKeyboardManagerSwift
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -38,6 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseApp.configure()
         self.copyDatabaseIfNeeded()
         getRemoteConfig()
+        IQKeyboardManager.shared.enable = true
         return true
     }
 

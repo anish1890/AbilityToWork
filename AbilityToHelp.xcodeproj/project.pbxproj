@@ -61,6 +61,7 @@
 		F8B413032B5F058A00BC8726 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B413022B5F058900BC8726 /* Configuration.swift */; };
 		F8CE834A2B64A6DF00AC031A /* GuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE83492B64A6DF00AC031A /* GuideVC.swift */; };
 		F8CE834C2B64A95000AC031A /* ExpressionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8CE834B2B64A95000AC031A /* ExpressionVC.swift */; };
+		F8DFB33F2B68771E00ED6A09 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F8DFB33E2B68771E00ED6A09 /* IQKeyboardManagerSwift */; };
 		F8EFD50F2B62FE52009BD277 /* ArDrawingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFD50E2B62FE52009BD277 /* ArDrawingVC.swift */; };
 		F8EFD5122B62FF3E009BD277 /* ArHoopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFD5112B62FF3E009BD277 /* ArHoopVC.swift */; };
 		F8EFD5142B62FF58009BD277 /* Basketball.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F8EFD5132B62FF58009BD277 /* Basketball.scnassets */; };
@@ -134,8 +135,6 @@
 		F8EFD59F2B6309CA009BD277 /* PuzzleStageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFD59E2B6309C9009BD277 /* PuzzleStageVC.swift */; };
 		F8EFD5A12B6309D2009BD277 /* RateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFD5A02B6309D2009BD277 /* RateVC.swift */; };
 		F8EFD5A32B6309DA009BD277 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EFD5A22B6309DA009BD277 /* SettingVC.swift */; };
-		F8EFD5A62B6329FF009BD277 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F8EFD5A52B6329FF009BD277 /* FirebaseAnalytics */; };
-		F8EFD5A82B6329FF009BD277 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = F8EFD5A72B6329FF009BD277 /* FirebaseCrashlytics */; };
 		F8EFD5AA2B6329FF009BD277 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F8EFD5A92B6329FF009BD277 /* FirebaseDatabase */; };
 		F8EFD5AC2B6329FF009BD277 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F8EFD5AB2B6329FF009BD277 /* FirebaseFirestore */; };
 		F8EFD5AE2B6329FF009BD277 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = F8EFD5AD2B6329FF009BD277 /* FirebaseRemoteConfig */; };
@@ -202,6 +201,7 @@
 		F8B413022B5F058900BC8726 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		F8CE83492B64A6DF00AC031A /* GuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideVC.swift; sourceTree = "<group>"; };
 		F8CE834B2B64A95000AC031A /* ExpressionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionVC.swift; sourceTree = "<group>"; };
+		F8DFB3402B688D0600ED6A09 /* AbilityToHelp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AbilityToHelp.entitlements; sourceTree = "<group>"; };
 		F8EFD50E2B62FE52009BD277 /* ArDrawingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArDrawingVC.swift; sourceTree = "<group>"; };
 		F8EFD5112B62FF3E009BD277 /* ArHoopVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArHoopVC.swift; sourceTree = "<group>"; };
 		F8EFD5132B62FF58009BD277 /* Basketball.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Basketball.scnassets; sourceTree = "<group>"; };
@@ -282,8 +282,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8EFD5A82B6329FF009BD277 /* FirebaseCrashlytics in Frameworks */,
-				F8EFD5A62B6329FF009BD277 /* FirebaseAnalytics in Frameworks */,
+				F8DFB33F2B68771E00ED6A09 /* IQKeyboardManagerSwift in Frameworks */,
 				F8EFD5AA2B6329FF009BD277 /* FirebaseDatabase in Frameworks */,
 				F8EFD5AE2B6329FF009BD277 /* FirebaseRemoteConfig in Frameworks */,
 				F8EFD5AC2B6329FF009BD277 /* FirebaseFirestore in Frameworks */,
@@ -297,6 +296,7 @@
 		04EE00FE2B5B20010070DE1B = {
 			isa = PBXGroup;
 			children = (
+				F8DFB3402B688D0600ED6A09 /* AbilityToHelp.entitlements */,
 				04EE01092B5B20010070DE1B /* KidsLogic */,
 				04EE01082B5B20010070DE1B /* Products */,
 				AAF9CCD04C7E60EE34E5C55E /* Pods */,
@@ -580,11 +580,10 @@
 			);
 			name = AbilityToHelp;
 			packageProductDependencies = (
-				F8EFD5A52B6329FF009BD277 /* FirebaseAnalytics */,
-				F8EFD5A72B6329FF009BD277 /* FirebaseCrashlytics */,
 				F8EFD5A92B6329FF009BD277 /* FirebaseDatabase */,
 				F8EFD5AB2B6329FF009BD277 /* FirebaseFirestore */,
 				F8EFD5AD2B6329FF009BD277 /* FirebaseRemoteConfig */,
+				F8DFB33E2B68771E00ED6A09 /* IQKeyboardManagerSwift */,
 			);
 			productName = KidsLogic;
 			productReference = 04EE01072B5B20010070DE1B /* AbilityToHelp.app */;
@@ -616,6 +615,7 @@
 			mainGroup = 04EE00FE2B5B20010070DE1B;
 			packageReferences = (
 				F8EFD5A42B6329FF009BD277 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F8DFB33D2B68771E00ED6A09 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = 04EE01082B5B20010070DE1B /* Products */;
 			projectDirPath = "";
@@ -696,7 +696,7 @@
 		};
 		D0610B70EB27585844467425 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -706,7 +706,7 @@
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AbilityToHelp/Pods-AbilityToHelp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbilityToHelp/Pods-AbilityToHelp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
@@ -954,15 +954,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AbilityToHelp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = G237Z2G383;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KidsLogic/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ability To Help";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
-				INFOPLIST_KEY_NSCameraUsageDescription = "needs to access camera to scan";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "needs to access photos to scan";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Ability to Help needs access to your camera to enable scanning and capturing images for a more personalized experience. Rest assured that we prioritize your privacy, and any images captured will be used solely for the intended purpose of enhancing your app interaction. We do not store or share your camera images without your explicit consent.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app may access your location even when not in use to provide continuous services, such as location-based alerts or navigation. Rest assured, your location data is handled with utmost privacy and only used for the app's intended purposes.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "This app requests access to your location to provide location-based services. Your location data is treated with utmost privacy and is solely used for the intended functionalities of the app.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Access to your location is requested only when the app is in use to enhance your experience. Your privacy is our priority.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Ability to Help requires access to your photo library to scan images and provide you with relevant results. We respect your privacy and assure you that your photos will only be used for the intended purpose of improving your app experience. We do not store or share your photos without your explicit consent";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -980,6 +984,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -992,15 +997,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AbilityToHelp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = G237Z2G383;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KidsLogic/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ability To Help";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
-				INFOPLIST_KEY_NSCameraUsageDescription = "needs to access camera to scan";
-				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "needs to access photos to scan";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Ability to Help needs access to your camera to enable scanning and capturing images for a more personalized experience. Rest assured that we prioritize your privacy, and any images captured will be used solely for the intended purpose of enhancing your app interaction. We do not store or share your camera images without your explicit consent.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "This app may access your location even when not in use to provide continuous services, such as location-based alerts or navigation. Rest assured, your location data is handled with utmost privacy and only used for the app's intended purposes.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "This app requests access to your location to provide location-based services. Your location data is treated with utmost privacy and is solely used for the intended functionalities of the app.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Access to your location is requested only when the app is in use to enhance your experience. Your privacy is our priority.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Ability to Help requires access to your photo library to scan images and provide you with relevant results. We respect your privacy and assure you that your photos will only be used for the intended purpose of improving your app experience. We do not store or share your photos without your explicit consent";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -1018,6 +1027,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1048,6 +1058,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		F8DFB33D2B68771E00ED6A09 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.1;
+			};
+		};
 		F8EFD5A42B6329FF009BD277 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -1059,15 +1077,10 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		F8EFD5A52B6329FF009BD277 /* FirebaseAnalytics */ = {
+		F8DFB33E2B68771E00ED6A09 /* IQKeyboardManagerSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = F8EFD5A42B6329FF009BD277 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		F8EFD5A72B6329FF009BD277 /* FirebaseCrashlytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F8EFD5A42B6329FF009BD277 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCrashlytics;
+			package = F8DFB33D2B68771E00ED6A09 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
 		};
 		F8EFD5A92B6329FF009BD277 /* FirebaseDatabase */ = {
 			isa = XCSwiftPackageProductDependency;
