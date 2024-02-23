@@ -31,7 +31,7 @@ let ADS_PRESENT_COUNT = "adsPresentCount"
 let ADS_FAIL_COUNT = "adsFailCount"
 let ADS_SUCESS_COUNT = "adsSucessCount"
 let ARRAY_PUZZLE_STAGES = "ARRAY_PUZZLE_STAGES"
-var APPSTOREURL = "https://apps.apple.com/us/app/kids-word-puzzle/id6443554153"
+var APPSTOREURL = ""
 let FeedbackEmail = "info@hash-mob.com"
 let feedbackMessageBody = """
 App name: WordPuzzle

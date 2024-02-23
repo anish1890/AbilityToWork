@@ -33,6 +33,8 @@ class SchoolHomeVC: UIViewController, UICollectionViewDelegate, UICollectionView
     var arrSchool: [String] = []
     var arrSports: [String] = []
     var arrVehicle: [String] = []
+    var arrdailyRoutine: [String] = []
+    var arrFaceExp: [String] = []
 
     @IBOutlet weak var mainCatListCollectionView: UICollectionView!
    
@@ -57,9 +59,9 @@ class SchoolHomeVC: UIViewController, UICollectionViewDelegate, UICollectionView
         } else if selectedMainCat == 3 {
             title = GlobleConstants.MAIN_CAT_LISTEN
         }
-       arrMainCategoryImageName = ["Alphabets", "Number", "Color", "Shapes", "Animals", "Birds", "Flowers", "Fruits", "Month", "Vegetable", "Body parts", "Clothes", "Country", "Food", "Geometry", "House", "Jobs", "School", "Sports", "Vehicle"]
+       arrMainCategoryImageName = ["Alphabets", "Numbers", "Colors", "Shapess", "Animals", "Birds", "Flowers", "Fruits", "Months", "Vegetables", "Body parts", "Clothes", "Country", "Foods", "Geometry", "Houses", "Jobs", "School", "Sports", "Vehicles","Daily Routine","Face Expressions"]
         
-        arrMainCategoryImage = ["home_alphabet", "home_number", "home_color", "home_shape", "home_animal", "home_birds", "home_flower", "home_fruits", "home_month", "home_vegetable", "home_body_parts", "home_clothes", "home_country", "home_food", "home_geometry", "home_house", "home_jobs", "home_school", "home_sports", "home_vehicle"]
+        arrMainCategoryImage = ["home_alphabet", "home_number", "home_color", "home_shape", "home_animal", "home_birds", "home_flower", "home_fruits", "home_month", "home_vegetable", "home_body_parts", "home_clothes", "home_country", "home_food", "home_geometry", "home_house", "home_jobs", "home_school", "home_sports", "home_vehicle","49367569_0","face-expression-set_561153-418"]
 
         arrVideoList = ["vt_abc", "vt_number", "vt_color", "vt_animal", "vt_shape", "vt_vehicle", "vt_fruit", "vt_vegetable", "vt_day", "vt_month", "vt_clothes"]
 
@@ -103,7 +105,15 @@ class SchoolHomeVC: UIViewController, UICollectionViewDelegate, UICollectionView
 
          arrVehicle = ["ambulance", "bike", "boat", "bus", "car", "container_truck", "fire_truck", "helicopter", "motorbike", "plane", "police_car", "ship", "subway", "train", "truck"]
 
-
+        arrdailyRoutine = ["Wake up", "Get up", "Clean my teeth", "Have a shower", "Get dressed", "Have Breakfast", "Go to school", "Have lunch", "Do homework", "Have dinner", "Go to bed"]
+        arrFaceExp = ["angry",
+                       "kiss",
+                       "love",
+                      "neutral",
+                      "sad",
+                      "shy",
+                     "smiling",
+                      "wink",]
  
     }
     
@@ -198,6 +208,9 @@ class SchoolHomeVC: UIViewController, UICollectionViewDelegate, UICollectionView
             case 17: vc.arrGetSubCatData = arrSchool
             case 18: vc.arrGetSubCatData = arrSports
             case 19: vc.arrGetSubCatData = arrVehicle
+            case 20: vc.arrGetSubCatData = arrdailyRoutine
+            case 21: vc.arrGetSubCatData = arrFaceExp
+                
             default: break
             }
             

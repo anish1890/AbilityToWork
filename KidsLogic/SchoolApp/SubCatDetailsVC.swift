@@ -71,11 +71,7 @@ class SubCatDetailsVC: UIViewController, AVSpeechSynthesizerDelegate {
         if let Str_Title = (self.arrGetSubCatDetailsData[self.selectedSubCatIndex] as? [String: Any])?["Title"] as? String {
             lblName.text = Str_Title
 
-            if UI_USER_INTERFACE_IDIOM() == .phone {
-                lblName.font = UIFont.boldSystemFont(ofSize: 35)
-            } else {
-                lblName.font = UIFont.boldSystemFont(ofSize: 50)
-            }
+          
         }
 
         if let Str_ImageName = (self.arrGetSubCatDetailsData[self.selectedSubCatIndex] as? [String: Any])?["Image"] as? String {
@@ -96,11 +92,7 @@ class SubCatDetailsVC: UIViewController, AVSpeechSynthesizerDelegate {
         }
         lblName.text = title
         
-        if UI_USER_INTERFACE_IDIOM() == .phone {
-            lblName.font = UIFont.boldSystemFont(ofSize: 35)
-        } else {
-            lblName.font = UIFont.boldSystemFont(ofSize: 50)
-        }
+      
         
         if let imageName = (arrGetSubCatDetailsData[indexVal] as? [String: Any])?["Image"] as? String {
             imgSelected.image = UIImage(named: imageName)
@@ -707,6 +699,33 @@ class SubCatDetailsVC: UIViewController, AVSpeechSynthesizerDelegate {
             ["Title": "Subway", "Image": "subway", "Desc_Data": "Subway"],
             ["Title": "Train", "Image": "train", "Desc_Data": "Train"],
             ["Title": "Truck", "Image": "truck", "Desc_Data": "Truck"]
+        ]
+    }
+    func faceExpArray() {
+        self.passArrDataSelected = [
+            ["Title": "Angry", "Image": "angry", "Desc_Data": "angry"],
+            ["Title": "kiss", "Image": "kiss", "Desc_Data": "kiss"],
+            ["Title": "love", "Image": "love", "Desc_Data": "love"],
+            ["Title": "neutral", "Image": "neutral", "Desc_Data": "neutral"],
+            ["Title": "sad", "Image": "sad", "Desc_Data": "sad"],
+            ["Title": "shy", "Image": "shy", "Desc_Data": "shy"],
+            ["Title": "smiling", "Image": "smiling", "Desc_Data": "smiling"],
+            ["Title": "wink", "Image": "wink", "Desc_Data": "wink"]
+        ]
+    }
+    func dailyRoutineArray() {
+        self.passArrDataSelected = [
+            ["Title": "Wake up", "Image": "Wake up", "Desc_Data": "Wake up"],
+            ["Title": "Get up", "Image": "Get up", "Desc_Data": "Get up"],
+            ["Title": "Clean my teeth", "Image": "Clean my teeth", "Desc_Data": "Clean my teeth"],
+            ["Title": "Have a shower", "Image": "Have a shower", "Desc_Data": "Have a shower"],
+            ["Title": "Get dressed", "Image": "Get dressed", "Desc_Data": "Get dressed"],
+            ["Title": "Have Breakfast", "Image": "Have Breakfast", "Desc_Data": "Have Breakfast"],
+            ["Title": "Go to school", "Image": "Go to school", "Desc_Data": "Go to school"],
+            ["Title": "Have lunch", "Image": "Have lunch", "Desc_Data": "Have lunch"],
+            ["Title": "Do homework", "Image": "Do homework", "Desc_Data": "Do homework"],
+            ["Title": "Have dinner", "Image": "Have dinner", "Desc_Data": "Have dinner"],
+            ["Title": "Go to bed", "Image": "Go to bed", "Desc_Data": "Go to bed"]
         ]
     }
 

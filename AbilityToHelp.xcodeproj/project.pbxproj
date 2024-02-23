@@ -37,6 +37,11 @@
 		F80A9C232B6723D000324673 /* speechdelay.html in Resources */ = {isa = PBXBuildFile; fileRef = F80A9C1E2B6723D000324673 /* speechdelay.html */; };
 		F80A9C242B6723D000324673 /* behaviors.html in Resources */ = {isa = PBXBuildFile; fileRef = F80A9C1F2B6723D000324673 /* behaviors.html */; };
 		F80A9C252B6723D000324673 /* autism.html in Resources */ = {isa = PBXBuildFile; fileRef = F80A9C202B6723D000324673 /* autism.html */; };
+		F825231D2B7B144000A08FBC /* Atma-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F82523182B7B144000A08FBC /* Atma-Light.ttf */; };
+		F825231E2B7B144000A08FBC /* Atma-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F82523192B7B144000A08FBC /* Atma-Regular.ttf */; };
+		F825231F2B7B144000A08FBC /* Atma-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F825231A2B7B144000A08FBC /* Atma-Medium.ttf */; };
+		F82523202B7B144000A08FBC /* Atma-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F825231B2B7B144000A08FBC /* Atma-SemiBold.ttf */; };
+		F82523212B7B144000A08FBC /* Atma-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F825231C2B7B144000A08FBC /* Atma-Bold.ttf */; };
 		F83E81A62B5B3F440006F210 /* LookQuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83E81A52B5B3F440006F210 /* LookQuizVC.swift */; };
 		F83E81A82B5B6E750006F210 /* CustomLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83E81A72B5B6E750006F210 /* CustomLayout.swift */; };
 		F83F5D6F2B65A8E9008E4262 /* RiddleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F5D6E2B65A8E9008E4262 /* RiddleVC.swift */; };
@@ -45,6 +50,7 @@
 		F83F5D752B65CAE3008E4262 /* FuncHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F5D742B65CAE3008E4262 /* FuncHomeViewController.swift */; };
 		F83F5D772B65D2DC008E4262 /* PeriodicDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F5D762B65D2DC008E4262 /* PeriodicDetail.swift */; };
 		F83F5D792B65F79C008E4262 /* DailyRoutineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F83F5D782B65F79C008E4262 /* DailyRoutineViewController.swift */; };
+		F84959632B745A1D00010C89 /* MainCatCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84959622B745A1D00010C89 /* MainCatCollectionViewCell.swift */; };
 		F85E7C972B5DB4D80050819C /* ListenQuizVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85E7C962B5DB4D80050819C /* ListenQuizVC.swift */; };
 		F85E7C992B5DB5A60050819C /* SubCategoryLearnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85E7C982B5DB5A60050819C /* SubCategoryLearnVC.swift */; };
 		F86FC7D72B65FBFA00C77AFB /* ArticlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86FC7D62B65FBFA00C77AFB /* ArticlesViewController.swift */; };
@@ -177,6 +183,11 @@
 		F80A9C1E2B6723D000324673 /* speechdelay.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = speechdelay.html; sourceTree = "<group>"; };
 		F80A9C1F2B6723D000324673 /* behaviors.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = behaviors.html; sourceTree = "<group>"; };
 		F80A9C202B6723D000324673 /* autism.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = autism.html; sourceTree = "<group>"; };
+		F82523182B7B144000A08FBC /* Atma-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Atma-Light.ttf"; sourceTree = "<group>"; };
+		F82523192B7B144000A08FBC /* Atma-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Atma-Regular.ttf"; sourceTree = "<group>"; };
+		F825231A2B7B144000A08FBC /* Atma-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Atma-Medium.ttf"; sourceTree = "<group>"; };
+		F825231B2B7B144000A08FBC /* Atma-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Atma-SemiBold.ttf"; sourceTree = "<group>"; };
+		F825231C2B7B144000A08FBC /* Atma-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Atma-Bold.ttf"; sourceTree = "<group>"; };
 		F83E81A52B5B3F440006F210 /* LookQuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookQuizVC.swift; sourceTree = "<group>"; };
 		F83E81A72B5B6E750006F210 /* CustomLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLayout.swift; sourceTree = "<group>"; };
 		F83F5D6E2B65A8E9008E4262 /* RiddleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiddleVC.swift; sourceTree = "<group>"; };
@@ -185,6 +196,7 @@
 		F83F5D742B65CAE3008E4262 /* FuncHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuncHomeViewController.swift; sourceTree = "<group>"; };
 		F83F5D762B65D2DC008E4262 /* PeriodicDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicDetail.swift; sourceTree = "<group>"; };
 		F83F5D782B65F79C008E4262 /* DailyRoutineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyRoutineViewController.swift; sourceTree = "<group>"; };
+		F84959622B745A1D00010C89 /* MainCatCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCatCollectionViewCell.swift; sourceTree = "<group>"; };
 		F85E7C962B5DB4D80050819C /* ListenQuizVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenQuizVC.swift; sourceTree = "<group>"; };
 		F85E7C982B5DB5A60050819C /* SubCategoryLearnVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubCategoryLearnVC.swift; sourceTree = "<group>"; };
 		F86FC7D62B65FBFA00C77AFB /* ArticlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesViewController.swift; sourceTree = "<group>"; };
@@ -201,7 +213,6 @@
 		F8B413022B5F058900BC8726 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		F8CE83492B64A6DF00AC031A /* GuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideVC.swift; sourceTree = "<group>"; };
 		F8CE834B2B64A95000AC031A /* ExpressionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionVC.swift; sourceTree = "<group>"; };
-		F8DFB3402B688D0600ED6A09 /* AbilityToHelp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AbilityToHelp.entitlements; sourceTree = "<group>"; };
 		F8EFD50E2B62FE52009BD277 /* ArDrawingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArDrawingVC.swift; sourceTree = "<group>"; };
 		F8EFD5112B62FF3E009BD277 /* ArHoopVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArHoopVC.swift; sourceTree = "<group>"; };
 		F8EFD5132B62FF58009BD277 /* Basketball.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Basketball.scnassets; sourceTree = "<group>"; };
@@ -296,7 +307,6 @@
 		04EE00FE2B5B20010070DE1B = {
 			isa = PBXGroup;
 			children = (
-				F8DFB3402B688D0600ED6A09 /* AbilityToHelp.entitlements */,
 				04EE01092B5B20010070DE1B /* KidsLogic */,
 				04EE01082B5B20010070DE1B /* Products */,
 				AAF9CCD04C7E60EE34E5C55E /* Pods */,
@@ -315,6 +325,7 @@
 		04EE01092B5B20010070DE1B /* KidsLogic */ = {
 			isa = PBXGroup;
 			children = (
+				F82523172B7B142E00A08FBC /* AtmaFonts */,
 				F8CE83482B64A6C900AC031A /* Guide */,
 				F8EFD50A2B62F796009BD277 /* Games */,
 				F8B412FF2B5F045200BC8726 /* SchoolApp */,
@@ -344,6 +355,7 @@
 				04EE01372B5B249D0070DE1B /* VideoPlayerTblCell.swift */,
 				04EE01382B5B249D0070DE1B /* VideoPlayerTblCell.xib */,
 				045D36642B6857C30088C20F /* cellGpt.swift */,
+				F84959622B745A1D00010C89 /* MainCatCollectionViewCell.swift */,
 			);
 			path = CustomCell;
 			sourceTree = "<group>";
@@ -383,6 +395,18 @@
 				F5D26DB6BF7B733BE61206D0 /* Pods-AbilityToHelp.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F82523172B7B142E00A08FBC /* AtmaFonts */ = {
+			isa = PBXGroup;
+			children = (
+				F825231C2B7B144000A08FBC /* Atma-Bold.ttf */,
+				F82523182B7B144000A08FBC /* Atma-Light.ttf */,
+				F825231A2B7B144000A08FBC /* Atma-Medium.ttf */,
+				F82523192B7B144000A08FBC /* Atma-Regular.ttf */,
+				F825231B2B7B144000A08FBC /* Atma-SemiBold.ttf */,
+			);
+			path = AtmaFonts;
 			sourceTree = "<group>";
 		};
 		F87E21B32B6353CB00CAB9EB /* CoreML */ = {
@@ -645,9 +669,12 @@
 				F8EFD55D2B6308F5009BD277 /* Guava Candy.ttf in Resources */,
 				F8EFD5632B6308F5009BD277 /* HelveticaRoundedLTStd-Black.otf in Resources */,
 				04EE01282B5B23490070DE1B /* CategoryCollectionViewCell.xib in Resources */,
+				F825231D2B7B144000A08FBC /* Atma-Light.ttf in Resources */,
 				04EE01172B5B20040070DE1B /* LaunchScreen.storyboard in Resources */,
 				04EE01142B5B20040070DE1B /* Assets.xcassets in Resources */,
 				F8EFD5322B6308A7009BD277 /* StageCell.xib in Resources */,
+				F82523212B7B144000A08FBC /* Atma-Bold.ttf in Resources */,
+				F82523202B7B144000A08FBC /* Atma-SemiBold.ttf in Resources */,
 				F8EFD5202B6306BD009BD277 /* GameScene.sks in Resources */,
 				F8B412FE2B5EEFA800BC8726 /* VideolistCollectionViewCell.xib in Resources */,
 				F8B412FC2B5EE01400BC8726 /* preschool.db in Resources */,
@@ -656,7 +683,9 @@
 				F8EFD5612B6308F5009BD277 /* HelveticaRoundedLTStd-Bd.otf in Resources */,
 				F8EFD57B2B63092D009BD277 /* success.mp3 in Resources */,
 				04EE012C2B5B239D0070DE1B /* mainCatTableViewCell.xib in Resources */,
+				F825231F2B7B144000A08FBC /* Atma-Medium.ttf in Resources */,
 				F8EFD5602B6308F5009BD277 /* RobotoCondensed-Regular.ttf in Resources */,
+				F825231E2B7B144000A08FBC /* Atma-Regular.ttf in Resources */,
 				04EE013A2B5B249D0070DE1B /* VideoPlayerTblCell.xib in Resources */,
 				F80A9C252B6723D000324673 /* autism.html in Resources */,
 				F8EFD55C2B6308F5009BD277 /* GAMERIA.ttf in Resources */,
@@ -696,7 +725,7 @@
 		};
 		D0610B70EB27585844467425 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -706,7 +735,7 @@
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AbilityToHelp/Pods-AbilityToHelp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbilityToHelp/Pods-AbilityToHelp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
@@ -792,6 +821,7 @@
 				F8EFD5862B630950009BD277 /* AIGlobals.swift in Sources */,
 				F8EFD57D2B630939009BD277 /* AVSpeechSynthesizer.swift in Sources */,
 				F87E21BB2B63577700CAB9EB /* Inceptionv3.mlmodel in Sources */,
+				F84959632B745A1D00010C89 /* MainCatCollectionViewCell.swift in Sources */,
 				F8EFD5482B6308DA009BD277 /* CustomImageView.swift in Sources */,
 				04EE01332B5B242D0070DE1B /* VideolistCollectionViewCell.swift in Sources */,
 				F86FC7D92B66037300C77AFB /* SynoniumsViewController.swift in Sources */,
@@ -954,10 +984,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AbilityToHelp.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = G237Z2G383;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = G237Z2G383;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KidsLogic/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ability To Help";
@@ -973,21 +1006,23 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Team.AbilityHelp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = abilityEnglish;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -997,10 +1032,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = AbilityToHelp.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
-				DEVELOPMENT_TEAM = G237Z2G383;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = G237Z2G383;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KidsLogic/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Ability To Help";
@@ -1016,21 +1054,23 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = Team.AbilityHelp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = abilityEnglish;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

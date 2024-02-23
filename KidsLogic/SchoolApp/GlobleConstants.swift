@@ -15,14 +15,14 @@ struct GlobleConstants {
     // Home screen (HomeVC) main category listing screen constant
     //static let HOME_TITEL_TEXT = Language.kLang("Kids Learning")
 
-    static let MAIN_CAT_LEARN = "Kids Learning"
+    static let MAIN_CAT_LEARN = "Learning"
     static let MAIN_CAT_LOOK = "Look and Choose"
     static let MAIN_CAT_LISTEN = "Listen and Guess"
     static let MAIN_CAT_Vid = "Video Learning"
 
     static let CORRECT_ANS = "Correct Answer"
     static let WRONG_ANS = "Wrong Answer"
-    static let PRE_SCHOOL_TITLE = "Pre school kids Learning"
+    static let PRE_SCHOOL_TITLE = "Pre school Learning"
 
     static let FAV_COLOR_WRONG = UIColor(red: 255/255.0, green: 38/255.0, blue: 0/255.0, alpha: 0.9)
     static let FAV_COLOR_CORRECT = UIColor(red: 0/255.0, green: 249/255.0, blue: 0/255.0, alpha: 0.9)

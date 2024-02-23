@@ -13,7 +13,7 @@ class SubCategoryLearnVC: UIViewController, UICollectionViewDelegate, UICollecti
     
     var arrDataAlphabets: [Any] = []
     var passArrDataSelected: [Any] = []
-    var arrSelectedItem: [String] = ["Alphabets", "Numbers", "Colors", "Shapes", "Animals", "Birds", "Flowers", "Fruits", "Month", "Vegetables", "Body Parts", "Clothes", "Country", "Food", "Geometry", "House", "Jobs", "School", "Sports", "Vehicle"]
+    var arrSelectedItem: [String] = ["Alphabets", "Numbers", "Colors", "Shapes", "Animals", "Birds", "Flowers", "Fruits", "Month", "Vegetables", "Body Parts", "Clothes", "Country", "Food", "Geometry", "House", "Jobs", "School", "Sports", "Vehicle","Daily Routine","Face Expressions"]
        var arrGetSubCatData: [Any] = []
        var selectedSubCatName: String = ""
        var selectedSubCat: Int = 0
@@ -48,6 +48,8 @@ class SubCategoryLearnVC: UIViewController, UICollectionViewDelegate, UICollecti
         case 17: schoolDetailsArray()
         case 18: sportsDetailsArray()
         case 19: vehicleDetailsArray()
+        case 20 :dailyRoutineArray()
+        case 21 : faceExpArray()
         default: break
         }
         
@@ -688,6 +690,32 @@ class SubCategoryLearnVC: UIViewController, UICollectionViewDelegate, UICollecti
             ["Title": "Truck", "Image": "truck", "Desc_Data": "Truck"]
         ]
     }
-
+    func faceExpArray() {
+        self.passArrDataSelected = [
+            ["Title": "Angry", "Image": "angry", "Desc_Data": "angry"],
+            ["Title": "kiss", "Image": "kiss", "Desc_Data": "kiss"],
+            ["Title": "love", "Image": "love", "Desc_Data": "love"],
+            ["Title": "neutral", "Image": "neutral", "Desc_Data": "neutral"],
+            ["Title": "sad", "Image": "sad", "Desc_Data": "sad"],
+            ["Title": "shy", "Image": "shy", "Desc_Data": "shy"],
+            ["Title": "smiling", "Image": "smiling", "Desc_Data": "smiling"],
+            ["Title": "wink", "Image": "wink", "Desc_Data": "wink"]
+        ]
+    }
+    func dailyRoutineArray() {
+        self.passArrDataSelected = [
+            ["Title": "Wake up", "Image": "Wake up", "Desc_Data": "Wake up"],
+            ["Title": "Get up", "Image": "Get up", "Desc_Data": "Get up"],
+            ["Title": "Clean my teeth", "Image": "Clean my teeth", "Desc_Data": "Clean my teeth"],
+            ["Title": "Have a shower", "Image": "Have a shower", "Desc_Data": "Have a shower"],
+            ["Title": "Get dressed", "Image": "Get dressed", "Desc_Data": "Get dressed"],
+            ["Title": "Have Breakfast", "Image": "Have Breakfast", "Desc_Data": "Have Breakfast"],
+            ["Title": "Go to school", "Image": "Go to school", "Desc_Data": "Go to school"],
+            ["Title": "Have lunch", "Image": "Have lunch", "Desc_Data": "Have lunch"],
+            ["Title": "Do homework", "Image": "Do homework", "Desc_Data": "Do homework"],
+            ["Title": "Have dinner", "Image": "Have dinner", "Desc_Data": "Have dinner"],
+            ["Title": "Go to bed", "Image": "Go to bed", "Desc_Data": "Go to bed"]
+        ]
+    }
 
 }

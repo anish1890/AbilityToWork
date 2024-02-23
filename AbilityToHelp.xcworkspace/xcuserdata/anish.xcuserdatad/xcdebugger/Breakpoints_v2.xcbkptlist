@@ -20,5 +20,53 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6E4BF74-B2C6-4A1F-9295-D1569DD98696"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KidsLogic/SchoolApp/SchoolHomeVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D6E4BF74-B2C6-4A1F-9295-D1569DD98696 - 4fb8716d5d1684b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AbilityToHelp.SchoolHomeVC.viewDidLoad() -&gt; ()"
+                  moduleName = "AbilityToHelp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anish/Desktop/GitHub/Zuria2024/AbilityToWork/KidsLogic/SchoolApp/SchoolHomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  uuid = "D6E4BF74-B2C6-4A1F-9295-D1569DD98696 - 4fb8716d5d1684d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AbilityToHelp.SchoolHomeVC.viewDidLoad() -&gt; ()"
+                  moduleName = "AbilityToHelp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/anish/Desktop/GitHub/Zuria2024/AbilityToWork/KidsLogic/SchoolApp/SchoolHomeVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

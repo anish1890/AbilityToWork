@@ -5,7 +5,7 @@ target 'AbilityToHelp' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
- pod 'AFNetworking'
+
  pod "youtube-ios-player-helper", "~> 1.0.4"
  pod 'SDWebImage'
 pod 'FMDB'
@@ -15,7 +15,6 @@ pod 'Each', '~> 1.2'
 pod "KRProgressHUD"
 pod 'SwiftyStoreKit'
 pod 'SDWebImage'
-pod 'OneSignal', '>= 3.0.0', '< 4.0'
 pod 'NVActivityIndicatorView'
 pod 'FirebaseAuth'
 #pod 'FirebaseFirestore'
